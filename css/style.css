@@ -43,7 +43,7 @@ a{
   text-decoration: none;
 }
 a:visited{
-  color: #fafafa;
+  color: #2A2B2A;
 }
 a:hover{
   color: #cc6540;
@@ -52,13 +52,31 @@ a:hover{
 a:active{
   color: #994c30;
 }
+a:hover,
+a:focus {
+  color: #cc6540;
+  text-decoration: underline;
+}
 .button{
   display: inline-block;
-  background-color: #ff7f50;
-  color: #ffffff;
+  background-color: #0872B6;
+  color: #fafafa;
   font-weight: 400;
   padding: 10px;
   border-radius: 2px;
-  border-bottom: 2px solid #994c30;
+  border-bottom: 2px solid #2A2B2A;
   transition: 0.2s opacity;
+}
+.button:hover{
+  opacity: 0.8;
+}
+.button.contact{
+  background-color: transparent;
+  color: #0872B6;
+  text-transform: uppercase;
+  border: 2px solid #0872B6;
+}
+.button.contact:hover{
+  background-color: #0872B6;
+  color: #fafafa;
 }
