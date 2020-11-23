@@ -80,3 +80,13 @@ a:focus {
   background-color: #0872B6;
   color: #fafafa;
 }
+.button.download{
+  background-color: transparent;
+  color: #2A2B2A;
+  text-transform: uppercase;
+  border: 2px solid #2A2B2A;
+}
+.button.download:hover{
+  background-color: #2A2B2A;
+  color: #0872B6;
+}
