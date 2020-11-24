@@ -142,9 +142,21 @@ header {
 }
 .copyright {
   padding: 10px;
+  text-align: center;
 }
-.social-links {
-  display: inline-block;
-  width: 100%;
+.social-links > ul {
+  list-style-type: none;
   padding: 0px;
+}
+.social-links > ul > li {
+  display: inline-block;
+}
+.social-links > ul > li > a {
+  padding: 0 15px;
+  color: #2A2B2A;
+  font-weight: 900;
+}
+.border {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #0872B6;
 }
