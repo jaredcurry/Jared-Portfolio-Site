@@ -6,122 +6,107 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
-  <script src="https://kit.fontawesome.com/945a16a0cc.js" crossorigin="anonymous"></script>
   <link rel="shortcut icon" href="img/favicon/favicon.ico">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Piazzolla:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-  <title>Jared Curry Boston Based UX/UI Designer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <title>Jared Curry UX/UI Designer</title>
 </head>
 
-<body>
-  <!-- Header -->
+<body id="about-page">
+  <!-- Header & Nav -->
   <header>
     <div class="container">
-      <img src="/Users/jc/Desktop/Jared Portfolio Site/img/logo/light.svg" alt="Jared Curry" class="logo">
+      <img src="img/logo/logo_darkblue.svg" alt="Jared Curry Logo" class="logo">
       <nav>
         <ul>
-          <li><a href="index.html">Work</a></li>
-          <li><a href="about.html">About</a></li>
+          <li><a href="index.html">Projects</a></li>
+          <li><a href="about.html">About Me</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </div>
   </header>
-  <!-- hero section -->
-  <div id="intro">
-    <!-- Whole Section -->
-    <div class="container">
-      <!-- Container -->
-      <h1>Hello, I'm Jared <span> a Boston based college soccer coach turned UX/UI designer.</span> </h1>
-      <p>
-        I love creating simple and usable products for people all over the world.
-      </p>
-    </div>
-  </div>
 
-  <main>
-    <div class="">
-      <div class="container"> <!-- Container -->
-        <h1>About Me</h1>
+  <main class="container" id="about-me">
+    <!-- this is the main content section -->
+    <h1>A little bit about me</h1>
+    <picture class="my-image">
+      <img src="img/profile_picture/@2x/Profile_Image_@2x.png" alt="Me">
+    </picture>
+
+    <div class="row">
+      <!-- Content Section -->
+      <div class="story col-7">
+        <!-- My Story Section -->
+        <!-- Left column on desktop-->
+        <h2>My Story</h2>
+        <p>
+          I’m a UX/UI designer with a pretty fascinating background. I have worked in marketing and sales operations for a tech start-up and am also a collegiate soccer coach.
+          Both have given me interesting insights into becoming a UX/UI designer. As a college coach, attention to detail & communication are two of the most important
+          factors for success and tie in very well to my work as a designer. In my various roles in tech, I worked cross-functionally between marketing, sales & finance.
+          Working across various departments the main constant was always the customer. After leaving the tech world I became consumed with how customers interact with
+          and use products. This led me to the UX/UI design field and I have been focused on learning and building usable products ever since.
+        </p>
+        <a href="files/Resume.pdf" class="button download" target="_blank">Download My Resume</a>
       </div>
-    </div>
-    <div class=""> <!-- main content -->
-      <div class="container"> <!-- container -->
-        <picture>
-          <source src="img/profile_picture/@1x/Profile_Image_@1x.png" media="max-width:767px">
-          <img src="img/profile_picture/@2x/Profile_Image_@2x.png" alt="Me">
-        </picture>
-        <div class="row"> <!-- Columns -->
-          <div> <!-- Column 1 -->
-            <h2>My Story</h2>
-            <p>
-              I’m a UX/UI designer with a pretty fascinating background. I have worked in marketing and sales operations for a tech start-up and am also a collegiate soccer coach.
-              Both have given me interesting insights into becoming a UX/UI designer. As a college coach, attention to detail & communication are two of the most important
-              factors for success and tie in very well to my work as a designer. In my various roles in tech, I worked cross-functionally between marketing, sales & finance.
-              Working across various departments the main constant was always the customer. After leaving the tech world I became consumed with how customers interact with
-              and use products. This led me to the UX/UI design field and I have been focused on learning and building usable products ever since.
-            </p>
-            <a href="files/Resume.pdf" class="button download" target="_blank">Download My Resume</a>
-          </div>
-          <div class="container"> <!-- Column 2 -->
-            <h2>Skills & Tools</h2>
-            <div class=""> <!-- Skills Section -->
-              <h3>My Skills</h3>
-              <ul>
-                <li>User Research</li>
-                <li>User Flows</li>
-                <li>User Personas</li>
-                <li>Wireframes</li>
-                <li>Interface Design (iOS & Android)</li>
-                <li>Prototyping</li>
-                <li>Responsive Web Design</li>
-              </ul>
-            </div>
-            <div class=""> <!-- Tools Section -->
-              <h3>My Tools</h3>
-              <ul>
-                <li>Figma</li>
-                <li>Sketch</li>
-                <li>AdobeXD</li>
-                <li>Invision</li>
-                <li>Canva</li>
-              </ul>
-            </div>
-          </div>
+      <div class="skills-tools row">
+        <!-- Skills & Tools Section -->
+        <!-- Right Column on desktop-->
+        <h2>Skills & Tools</h2>
+        <div class="skills col-m-6 col-5">
+          <!-- Skills -->
+          <h3>Skills</h3>
+          <ul>
+            <li>User Research</li>
+            <li>User Testing & Personas</li>
+            <li>User Flows</li>
+            <li>Wireframing</li>
+            <li>Interface Design (iOS & Android)</li>
+            <li>Prototyping</li>
+            <li>Responsive Web Design</li>
+          </ul>
+        </div>
+        <div class="tools col-m-6 col-5">
+          <!-- Tools -->
+          <h3>Tools</h3>
+          <ul>
+            <li>Figma</li>
+            <li>Sketch</li>
+            <li>AdobeXD</li>
+            <li>Invision</li>
+            <li>Canva</li>
+          </ul>
         </div>
       </div>
     </div>
   </main>
-
   <!-- Footer -->
-  <footer id="#contact">
+  <footer>
     <div class="container">
-      <h2>Let's Talk</h2>
+      <!-- container for whole section -->
+      <h2>Want to Talk?</h2>
       <p>
-        If you're interested in discussing potential work or job opportunities, please get in touch
+        If you're interested in discussing potential work or job opportunities, let's talk.
       </p>
-      <div class="container">
-        <a href="mailto:curry.jared@gmail.com" class="button contact">Send me an email</a>
+      <div class="">
+        <!-- email contact button add button and contact to class-->
+        <a href="mailto:curry.jared@gmail.com" class="button email">Send me an email</a>
       </div>
       <div class="social-links">
-        <!-- Social Media Links -->
+        <!-- Social Links -->
         <ul>
-          <li><a href="https://www.behance.net/jaredcurry" target="_blank">
-            <i class="fab fa-behance"></i>
-          </a></li>
-          <li><a href="https://dribbble.com/jaredcurry" target="_blank">
-            <i class="fab fa-dribbble"></i>
-          </a></li>
-          <li><a href="https://www.linkedin.com/in/curryjared/" target="_blank">
-            <i class="fab fa-linkedin-in"></i>
-          </a></li>
-          <li><a href="https://github.com/jaredcurry" target="_blank">
-            <i class="fab fa-github"></i>
-          </a></li>
+          <li><a href="https://www.behance.net/jaredcurry" target="_blank">Behance</a></li>
+          <li><a href="https://dribbble.com/jaredcurry" target="_blank">Dribbble</a></li>
+          <li><a href="https://github.com/jaredcurry" target="_blank">Github</a></li>
+          <li><a href="https://www.linkedin.com/in/curryjared/" target="_blank">LinkedIn</a></li>
         </ul>
       </div>
-      <p class="copyright">COPYRIGHT JARED CURRY 2020</p>
-    </div> <!-- Container -->
+      <p class="copyright">
+        Copyright 2020 Jared Curry
+      </p>
+    </div>
   </footer>
+
 </body>
+
 </html>
