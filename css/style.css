@@ -221,6 +221,14 @@ nav {
 .star {
   animation: 10s star-grow infinite alternate ease;
 }
+.my-image {
+  max-width: 200px;
+  display: block;
+  margin: auto;
+}
+.story h2 {
+  margin: 0;
+}
 /* Media Queries */
 
 /* ==============================
@@ -310,13 +318,13 @@ nav {
   margin-top: 4px;
 }
 #intro {
-  text-align: center;
+  text-align: left;
+  padding: 0 30px;
+  margin-left: 120px;
 }
 #intro h2 {
   font-size: 2em;
-}
-#intro span {
-  display: block;
+  text-align: left;
 }
 
 [class*="col-"] {
@@ -341,6 +349,8 @@ padding: 15px;
 }
 .skills-tools h2 {
   text-align: unset;
+  padding-top: 20px;
+  margin: unset
 }
 .button.download {
   margin: 0;
