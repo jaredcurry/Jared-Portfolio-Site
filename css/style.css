@@ -92,8 +92,9 @@ a:visited {
 }
 header {
   background-color: #fafafa;
-  padding: 10px;
+  padding: 10px 0 4px;
   margin: 10px;
+  border-bottom: 1px solid #2A2B2A;
 }
 
 /* Layout Styling */
@@ -118,20 +119,12 @@ header {
   text-align: center;
 }
 .logo {
-  max-width: 250px;
-}
-header {
-  background-color: #fafafa;
-  text-align: center;
-  padding: 10px 0;
-  border-bottom: 1px solid #2A2B2A;
+  max-width: 150px;
 }
 nav > ul {
   list-style-type: none;
   padding: 0;
-}
-nav > ul > li {
-  display: inline-block;
+  margin: 0;
 }
 nav > ul > li > a {
   padding: 0 10px;
@@ -148,10 +141,6 @@ nav > ul > li > a:visited {
 }
 nav > ul > li > a:active {
   color: yellow;
-}
-nav {
-  display: inline-block;
-  width: 100%;
 }
 #intro {
   background-color: #fafafa;
@@ -229,6 +218,33 @@ nav {
 .story h2 {
   margin: 0;
 }
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 20px;
+  padding-right: 0;
+}
+.navtoggle.responsive li  {
+  display: block;
+}
+.navtoggle.responsive nav {
+  padding: 24px 0 0;
+}
+.navtoggle.responsive li  {
+  display: block;
+  padding: 10px 0;
+  border-top: 1px dashed rgba(8,114,182,0.5);
+}
+.navtoggle.responsive li:last-child  {
+  padding: 0 0 10px;
+}
 /* Media Queries */
 
 /* ==============================
@@ -291,6 +307,21 @@ padding: 15px;
   margin-left: 34%;
   margin-right: 34%;
 }
+.logo {
+  max-width: 250px;
+}
+nav > ul > li {
+  display: inline-block;
+}
+.navtoggle li:not(:last-child) {
+  display: inline-block;
+}
+.navtoggle li:last-child {
+  display: none;
+}
+nav > ul {
+  margin: 1em 0;
+}
 }
 /* ==============================
 Large devices (1024px and larger)
@@ -320,7 +351,7 @@ nav {
 #intro {
   text-align: left;
   padding: 0 30px;
-  margin-left: 120px;
+  margin-left: 0px;
 }
 #intro h2 {
   font-size: 2em;
