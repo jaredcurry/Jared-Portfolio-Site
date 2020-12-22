@@ -64,7 +64,7 @@ a:focus {
 }
 
 a:visited {
-  color: #0872b6;
+  color: #fafafa;
 }
 
 .button {
@@ -513,10 +513,9 @@ Large devices (1024px and larger)
     margin-right: auto;
   }
 
-  #intro {
+  #intro.container {
     text-align: left;
     padding: 0 30px;
-    margin-left: 0;
   }
 
   #intro h2 {
@@ -540,14 +539,5 @@ Large devices (1024px and larger)
 
   .button.download {
     margin: 0;
-  }
-}
-
-/* ==============================
-Large devices (1440px and larger)
-================================= */
-@media only screen and (min-width: 1440px) {
-  .container {
-    max-width: 1440px;
   }
 }
